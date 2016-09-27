@@ -1,0 +1,9 @@
+	<script type="text/javascript" src="../files/js/js/jquery.js"></script>
+<script type="text/javascript" src="../files/js/js/jquery.img.preload.js"></script>
+<script type="text/javascript" src="../files/js/js/jquery.filestyle.mini.js"></script>
+<script type="text/javascript" src="../files/js/js/jquery.wysiwyg.js"></script>
+<script type="text/javascript" src="../files/js/js/jquery.date_input.pack.js"></script>
+<script type="text/javascript" src="../files/js/js/facebox.js"></script>
+<script type="text/javascript" src="../files/js/js/jquery.select_skin.js"></script>
+<script type="text/javascript" src="../files/js/js/jquery.tablesorter.min.js"></script>
+<script type="text/javascript" src="../files/js/js/custom.js"></script>
