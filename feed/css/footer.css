@@ -1,0 +1,189 @@
+/********************************************************************************
+* This script is brought to you by Vasplus Programming Blog to whom all copyrights are reserved.
+* Website: www.vasplus.info
+* Email: info@vasplus.info
+* Do not remove this information from the top of this code.
+*********************************************************************************/
+
+@charset "utf-8";
+
+div.vasplus_programming_blog_bottom
+{
+	background: #FFF;
+    display:block;
+    position:absolute;
+	z-index:999999999;
+    bottom:0%;
+    right:0%;
+    width:250px;
+	bottom:0px; 
+    border:0px solid #cbcbcb;
+	box-shadow: 0 0 8px #666666;
+	-moz-box-shadow: 0 0 8px #666666;
+	-webkit-box-shadow: 0 0 8px #666666;
+	-webkit-border-radius: 10px 0 0 0;-moz-border-radius: 10px 0 0 0;border-radius: 10px 0 0 0;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:11px;
+	font-weight:normal;
+	vertical-align:middle;
+	text-align:left;
+}
+div#vasplus_programming_blog_bottom
+{
+	background: #FFF url('../img/form_background.png') left top repeat-x;
+    display:block;
+    position:absolute;
+	z-index:999999999;
+    bottom:0%;
+    right:0%;
+    width:250px;
+	bottom:0px; 
+	padding:10px;
+	padding-bottom:5px;
+	padding-top:8px;
+    border:1px solid #F9F9F9;
+	box-shadow: 0 0 8px #CC0000;
+	-moz-box-shadow: 0 0 8px #CC0000;
+	-webkit-box-shadow: 0 0 8px #CC0000;
+	-webkit-border-radius: 10px 0 0 0;-moz-border-radius: 10px 0 0 0;border-radius: 10px 0 0 0;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	font-weight:normal;
+	vertical-align:middle;
+	text-align:left;
+}
+
+
+#vpv_tooltip_image
+{
+	background:url('../img/vpb_tooltip_iamge.png') no-repeat;
+	position:absolute;
+	width:170px;
+	height:68px;
+	right: 20px;
+	top: -78px;
+}
+
+#vpb_left_icons  {
+	width:23px; height:16px;
+	margin:0px;
+	padding:0px;
+	background: url('../img/guestbook.gif') no-repeat;
+	border: 0px solid hidden;
+	float:left;
+}
+#vpb_left_content  { float:left; }
+#vpb_leave_a_message_click  { cursor:pointer; }
+
+
+.vpb_contact_form_fields 
+{
+	width:210px; text-align:left; color:green;
+	font:11px Verdana, Geneva, sans-serif; 
+	padding: 9px; font-weight:bold;
+	border: solid 1px  #A4D1FF;
+	font: normal 12px Verdana, Tahoma, sans-serif;
+	background: #FFFFFF left top repeat-x;
+	background: -webkit-gradient(linear, left top, left 25, from(#FFFFFF), color-stop(4%, #EEEEEE), to(#FFFFFF));
+	background: -moz-linear-gradient(top, #FFFFFF, #EEEEEE 1px, #FFFFFF 25px);
+	box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;/*0.1 actually means 10 %*/
+	-moz-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;
+	-webkit-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;
+	outline:none;
+	-webkit-border-radius: 5px 5px; 5px 5px;-moz-border-radius: 5px 5px; 5px 5px;border-radius: 5px 5px; 5px 5px;
+	outline:none;
+}
+.vpb_contact_form_fields:focus { 
+outline: 0;
+ box-shadow: 0 0 10px #9F9FFF;
+	-moz-box-shadow: 0 0 10px #9F9FFF;
+	-webkit-box-shadow: 0 0 10px #9F9FFF;
+}
+
+#vasplus_programming_blog_mailer_status{font-family:Verdana, Geneva, sans-serif; font-size:11px; padding:10px; background:#FFFFB7; border:1px solid #F1F1F1;-moz-box-shadow: 0 2px 20px #cbcbcb;-webkit-box-shadow: 0 2px 20px #cbcbcb;-webkit-border-radius: 10px;-moz-border-radius: 10px;border-radius: 10px; line-height:20px;width:225px; float:left; display:none;}
+
+
+/*BUTTONS STARTS*/
+#vasplusPB_send_button
+{
+ background-color: #7fbf4d;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #7fbf4d), color-stop(100%, #63a62f));
+  background-image: -webkit-linear-gradient(top, #7fbf4d, #63a62f);
+  background-image: -moz-linear-gradient(top, #7fbf4d, #63a62f);
+  background-image: -ms-linear-gradient(top, #7fbf4d, #63a62f);
+  background-image: -o-linear-gradient(top, #7fbf4d, #63a62f);
+  background-image: linear-gradient(top, #7fbf4d, #63a62f);
+  border: 2px solid #63a62f;box-shadow: 0 2px 3px #666666;-moz-box-shadow: 0 2px 3px #666666;-webkit-box-shadow: 0 2px 3px #666666;
+  -webkit-border-radius: 8px;-moz-border-radius: 8px;border-radius: 8px;
+  color: #fff;
+  font: 16px/1 "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+  text-align: center;
+  padding:6px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-bottom: 5px;
+  text-shadow: 0 -1px 0 #4c9021;
+  width: 80px;
+  margin-bottom:20px;
+}
+#vasplusPB_send_button:hover 
+{
+    background-color: #76b347;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #76b347), color-stop(100%, #5e9e2e));
+    background-image: -webkit-linear-gradient(top, #76b347, #5e9e2e);
+    background-image: -moz-linear-gradient(top, #76b347, #5e9e2e);
+    background-image: -ms-linear-gradient(top, #76b347, #5e9e2e);
+    background-image: -o-linear-gradient(top, #76b347, #5e9e2e);
+    background-image: linear-gradient(top, #76b347, #5e9e2e);
+    box-shadow: 0 2px 3px #666666;
+	-moz-box-shadow: 0 2px 3px #666666;
+	-webkit-box-shadow: 0 2px 3px #666666;
+	-webkit-border-radius: 8px;-moz-border-radius: 8px;border-radius: 8px;
+    cursor: pointer; 
+}
+#vpb_exit_contact_box_buttons
+{
+  background-color: #ee432e;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ee432e), color-stop(50%, #c63929), color-stop(50%, #b51700), color-stop(100%, #891100));
+  background-image: -webkit-linear-gradient(top, #ee432e 0%, #c63929 50%, #b51700 50%, #891100 100%);
+  background-image: -moz-linear-gradient(top, #ee432e 0%, #c63929 50%, #b51700 50%, #891100 100%);
+  background-image: -ms-linear-gradient(top, #ee432e 0%, #c63929 50%, #b51700 50%, #891100 100%);
+  background-image: -o-linear-gradient(top, #ee432e 0%, #c63929 50%, #b51700 50%, #891100 100%);
+  background-image: linear-gradient(top, #ee432e 0%, #c63929 50%, #b51700 50%, #891100 100%);
+  border: 1px solid #951100;box-shadow: 0 2px 3px #951100;-moz-box-shadow: 0 2px 3px #951100;-webkit-box-shadow: 0 2px 3px #951100;
+  -webkit-border-radius: 8px;-moz-border-radius: 8px;border-radius: 8px;
+  border-radius: 5px;
+  -webkit-box-shadow: inset 0px 0px 0px 1px rgba(255, 115, 100, 0.4), 0 1px 3px #333333;
+  box-shadow: inset 0px 0px 0px 1px rgba(255, 115, 100, 0.4), 0 1px 3px #333333;
+  color: #fff;
+  font: 12px/1 "helvetica neue", helvetica, arial, sans-serif;
+  padding: 9px;
+  padding-left: 11px;
+  padding-right: 11px;
+  text-align: center;
+  text-shadow: 0px -1px 1px rgba(0, 0, 0, 0.8);
+  width: auto; 
+}
+#vpb_exit_contact_box_buttons:hover 
+{
+    background-color: #f37873;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f37873), color-stop(50%, #db504d), color-stop(50%, #cb0500), color-stop(100%, #a20601));
+    background-image: -webkit-linear-gradient(top, #f37873 0%, #db504d 50%, #cb0500 50%, #a20601 100%);
+    background-image: -moz-linear-gradient(top, #f37873 0%, #db504d 50%, #cb0500 50%, #a20601 100%);
+    background-image: -ms-linear-gradient(top, #f37873 0%, #db504d 50%, #cb0500 50%, #a20601 100%);
+    background-image: -o-linear-gradient(top, #f37873 0%, #db504d 50%, #cb0500 50%, #a20601 100%);
+    background-image: linear-gradient(top, #f37873 0%, #db504d 50%, #cb0500 50%, #a20601 100%);
+    cursor: pointer; }
+#vpb_exit_contact_box_buttons:active 
+{
+    background-color: #d43c28;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #d43c28), color-stop(50%, #ad3224), color-stop(50%, #9c1500), color-stop(100%, #700d00));
+    background-image: -webkit-linear-gradient(top, #d43c28 0%, #ad3224 50%, #9c1500 50%, #700d00 100%);
+    background-image: -moz-linear-gradient(top, #d43c28 0%, #ad3224 50%, #9c1500 50%, #700d00 100%);
+    background-image: -ms-linear-gradient(top, #d43c28 0%, #ad3224 50%, #9c1500 50%, #700d00 100%);
+    background-image: -o-linear-gradient(top, #d43c28 0%, #ad3224 50%, #9c1500 50%, #700d00 100%);
+    background-image: linear-gradient(top, #d43c28 0%, #ad3224 50%, #9c1500 50%, #700d00 100%);
+    -webkit-box-shadow: inset 0px 0px 0px 1px rgba(255, 115, 100, 0.4);
+    box-shadow: inset 0px 0px 0px 1px rgba(255, 115, 100, 0.4); 
+}
+/*BUTTONS ENDS*/
